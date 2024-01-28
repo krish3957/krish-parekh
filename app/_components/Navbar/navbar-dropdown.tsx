@@ -33,7 +33,7 @@ export const NavbarDropdown = () => {
                     <NavbarItem href='#projects' text='Projects' />
                 </DropdownMenuCheckboxItem>
                 <DropdownMenuCheckboxItem>
-                    <NavbarItem href='#contact' text='Projects' />
+                    <NavbarItem href='#contact' text='Contact Me' />
                 </DropdownMenuCheckboxItem>
             </DropdownMenuContent>
         </DropdownMenu>

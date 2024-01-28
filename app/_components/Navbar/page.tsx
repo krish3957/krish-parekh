@@ -36,7 +36,7 @@ const Navabar = () => {
                         <NavbarItem href='#home' text='Home' />
                         <NavbarItem href='#about' text='About' />
                         <NavbarItem href='#projects' text='Projects' />
-                        <NavbarItem href='#contact' text='Projects' />
+                        <NavbarItem href='#contact' text='Contact Me' />
                     </div>}
                     {!show && <NavbarDropdown />}
                     <ModeToggle/>
