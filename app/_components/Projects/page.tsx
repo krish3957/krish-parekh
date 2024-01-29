@@ -16,13 +16,13 @@ export const Projects = () => {
                     <ProjectItem key={project.id} project={project} />
                 ))}
             </div>
-            <Link href='/'>
-                <Fade direction='up' triggerOnce duration={1000}>
+            <Fade direction='up' triggerOnce duration={1000}>
+                <Link href='https://github.com/krish3957'>
                     <Button className='hover:bg-muted hover:text-primary transition-transform hover:scale-125 border border-solid'>
                         View All Projects
                     </Button>
-                </Fade>
-            </Link>
+                </Link>
+            </Fade>
         </div>
     )
 }

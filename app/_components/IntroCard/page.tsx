@@ -21,17 +21,17 @@ const IntroCard = () => {
                     <div className="pt-5 w-full">
                         <Link href='/#projects'>
                             <Button
-                                className="mr-10 md:w-40 md:py-8 bg-blue-600 text-white hover:bg-white hover:border border-black hover:text-black text-lg"
+                                className="md:w-40 md:py-8 bg-blue-600 text-white hover:bg-white hover:border border-black hover:text-black text-lg"
                                 size='lg'>
                                 Projects
                             </Button>
                         </Link>
-                        <Button
+                        {/* <Button
                             className=" md:w-40 md:py-8 bg-blue-600 text-white hover:bg-white hover:border border-black hover:text-black text-lg"
                             size='lg'
                         >
                             Resume
-                        </Button>
+                        </Button> */}
                     </div>
                 </Fade>
             </div>

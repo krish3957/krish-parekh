@@ -28,7 +28,8 @@ const SkillsCard = () => {
             <Fade direction='up' triggerOnce duration={1000}>
                 <div className='flex-1 p-5 md:p-0'>
                     <div className='flex flex-col'>
-                        <h2 className='font-bold text-3xl mb-5'>Technologies I&apos;ve been working with recently:</h2>
+                        {/* <h2 className='font-bold text-3xl mb-5'>Technologies I&apos;ve been working with recently:</h2> */}
+                        <h2 className='font-bold text-3xl'>My Skills</h2>
                         <SkillItems />
                     </div>
                 </div>
