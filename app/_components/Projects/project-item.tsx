@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 import Link from "next/link"
 import { Fade, Slide, Zoom } from "react-awesome-reveal"
 
@@ -13,7 +14,10 @@ const ProjectItem = ({
     project
 }: ProjectItemProps) => {
     return (
-        <div className="group relative w-90 md:w-45 lg:w-30 h-auto md:h-45 bg-border cursor-pointer m-5 hover:text-white p-2 hover:transition-transfrom hover:bg-blue-700 hover:scale-105 transition-all hover:shadow-slate-500 shadow-lg">
+        <div className="group relative w-90 md:w-45 lg:w-55 h-auto md:h-45 bg-border cursor-pointer m-5 hover:text-white p-2 hover:transition-transfrom hover:bg-blue-700 hover:scale-105 transition-all hover:shadow-slate-500 shadow-lg">
+            <Fade direction='up' triggerOnce duration={1000}>
+                {project.img && <Image src={project.img} alt={project.name} className="w-full h-55 md:h-45 object-cover" />}
+            </Fade>
             <Fade direction='up' triggerOnce duration={1000}>
                 <h2 className="font-semibold text-xl">{project.name}</h2>
                 <p className="text-sm  md:text-lg">{project.description}</p>

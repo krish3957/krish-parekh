@@ -12,7 +12,7 @@ const IntroCard = () => {
                 <Fade direction="left" duration={1000} triggerOnce>
                     <h1 className="font-bold text-2xl md:text-4xl lg:text-6xl pb-5">Hi I&apos;m Krish Parekh</h1>
                     <p className="text-muted-foreground text-lg  md:text-2xl lg:text-3xl ">
-                        Full-stack developer fueled by passion for learning. 🛠️ Builds diverse projects,
+                        Software Engineer fueled by passion for learning. 🛠️ Builds diverse projects,
                         seamlessly blending front-end and back-end tech. 🌐 Adaptable problem-solver thriving in
                         dynamic environments. 🌱 Constantly growing and embracing emerging technologies.
                     </p>
@@ -26,12 +26,14 @@ const IntroCard = () => {
                                 Projects
                             </Button>
                         </Link>
-                        {/* <Button
-                            className=" md:w-40 md:py-8 bg-blue-600 text-white hover:bg-white hover:border border-black hover:text-black text-lg"
-                            size='lg'
-                        >
-                            Resume
-                        </Button> */}
+                        <Link href='https://drive.google.com/file/d/1xQmy20BN3b9xvbrLULH-Yn7S3vrBrs0y/view?usp=sharing' target="_blank">
+                            <Button
+                                className=" md:w-40 md:py-8 bg-blue-600 text-white hover:bg-white hover:border border-black hover:text-black text-lg ml-5"
+                                size='lg'
+                            >
+                                Resume
+                            </Button>
+                        </Link>
                     </div>
                 </Fade>
             </div>
