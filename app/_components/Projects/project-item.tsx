@@ -8,6 +8,7 @@ interface ProjectItemProps {
         name: string,
         description: string,
         link: string,
+        img: string
     }
 };
 const ProjectItem = ({
