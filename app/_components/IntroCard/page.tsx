@@ -26,7 +26,7 @@ const IntroCard = () => {
                                 Projects
                             </Button>
                         </Link>
-                        <Link href='https://drive.google.com/file/d/1xQmy20BN3b9xvbrLULH-Yn7S3vrBrs0y/view?usp=sharing' target="_blank">
+                        <Link href='https://drive.google.com/file/d/1yRMnY4GyFDuvWUHft-AplmO5zJY4vNdU/view?usp=sharing' target="_blank">
                             <Button
                                 className=" md:w-40 md:py-8 bg-blue-600 text-white hover:bg-white hover:border border-black hover:text-black text-lg ml-5"
                                 size='lg'

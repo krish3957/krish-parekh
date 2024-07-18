@@ -5,6 +5,7 @@ import Navabar from "./_components/Navbar/page";
 import SkillsCard from "./_components/skillCard/page";
 import { Projects } from "./_components/Projects/page";
 import About from "./_components/aboutCard/aboutCard";
+import WorkExp from "./_components/workExp/page";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <IntroCard />
       <Separator />
       <SkillsCard />
+      <WorkExp />
       <Separator />
       <Projects />
       <Separator />

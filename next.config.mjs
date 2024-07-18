@@ -22,6 +22,11 @@ const nextConfig = {
                 hostname: 'upload.wikimedia.org',
                 pathname: '**',
             },
+            {
+                protocol: 'https',
+                hostname: "firebasestorage.googleapis.com",
+                pathname: "**"
+            }
         ]
     },
 };
